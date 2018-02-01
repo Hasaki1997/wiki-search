@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: rgb(109, 156, 185);
+}
+
+.searchbox {
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    height: 50px;
+    margin-top: 300px;
+    transition: all .5s;
+}
+
+.searchinput {
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 60px 0 40px;
+    border-radius: 10px 25px 0 25px;
+    border: none;
+    box-shadow: none;
+    transition: all .5s;
+    outline: none;
+    cursor: pointer;
+    margin-left: -50px;
+    background-color: #fff;
+}
+
+.searchbutton {
+    width: 100px;
+    height: 44px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 44px;
+    border: none;
+    border-radius: 10px;
+    display: none;
+}
+
+.output {
+    min-width: 400px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.output h3 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 0 40px;
+}
+
+.output .item {
+    border-radius: 10px;
+    margin: 2px;
+    border-left: 10px solid #ccc;
+    cursor: pointer;
+    min-height: 100px;
+    background: #ccc;
+    transition: transform .1s;
+}
+
+.output p {
+    font-size: 16px;
+    min-width: 300px;
+    max-width: 700px;
+    margin: 20px 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+header,
+footer {
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+footer {
+    flex: 0 0 auto;
+}
